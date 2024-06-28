@@ -4,7 +4,7 @@
 
 ![T-Pot](doc/OPSEC-T-pot-24.04.png)
 
-### Sensor 10.10.0.11
+### example sensor 10.10.0.11
 ![Sensor](doc/Sensor/Sensor-info-from-mgmt.png)
 
 T-Pot is the all in one, optionally distributed, multiarch (amd64, arm64) honeypot plattform, supporting 20+ honeypots and countless visualization options using the Elastic Stack, animated live attack maps and lots of security tools to further improve the deception experience.
