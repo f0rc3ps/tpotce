@@ -175,6 +175,7 @@ echo "### If you don't want to install the OPSEC-tpotce press Ctrl + C to quit t
 #echo "###            Optimized for a distributed installation, without WebUI, Elasticsearch and Kibana."
 #echo "### (M)obile - T-Pot Mobile installation."
 #echo "###            Includes everything to run T-Pot Mobile (available separately)."
+
 while true; do
   #read -p "### Install Type? (h/s/m) " myTPOT_TYPE
   read -p "### Choice if you want to Install this type? (h/s) " myTPOT_TYPE
