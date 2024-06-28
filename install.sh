@@ -175,7 +175,7 @@ echo "###             Includes also everything you need for a distributed setup 
 #echo "###            Includes everything to run T-Pot Mobile (available separately)."
 while true; do
   #read -p "### Install Type? (h/s/m) " myTPOT_TYPE
-  read -p "### Choice if you want to Install this type? (h) " myTPOT_TYPE
+  read -p "### Choice if you want to Install this type? (h/s) " myTPOT_TYPE
   case "${myTPOT_TYPE}" in
     h|H)
       echo
