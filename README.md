@@ -2,7 +2,7 @@
 
 ***In development mode***
 
-![T-Pot](doc/OPSEC-T-pot-24.04.png)
+[![T-Pot](doc/OPSEC-T-pot-24.04.png)](https://www.patreon.com/posts/opsec-t-pot-24-107056827)
 
 ### example sensor 10.10.0.11
 ![Sensor](doc/Sensor/Sensor-info-from-mgmt.png)
