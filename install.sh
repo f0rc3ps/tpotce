@@ -200,7 +200,7 @@ while true; do
 #      cp ${HOME}/tpotce/compose/mobile.yml ${HOME}/tpotce/docker-compose.yml
 #      myINFO=""
 #      break ;;
-#  esac
+  esac
 
 done
 
