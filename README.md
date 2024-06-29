@@ -517,7 +517,7 @@ According to the [User Types](#user-types) you can open the T-Pot Landing Page f
 - user: **[`<WEB_USER>`]**
 - pass: **[password]**
 
-![T-Pot-WebUI](doc/tpotwebui.png)
+![T-Pot-WebUI](doc/OPSEC-T-pot-24.04.png)
 <br><br>
 
 ## Kibana Dashboard
