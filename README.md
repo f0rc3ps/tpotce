@@ -20,12 +20,6 @@ T-Pot is the all in one, optionally distributed, multiarch (amd64, arm64) honeyp
 env bash -c "$(curl -sL https://github.com/f0rc3ps/tpotce/raw/master/install.sh)"
 ```
 
-### Update:
-```
-env bash -c "$(curl -sL https://github.com/f0rc3ps/tpotce/raw/master/update.sh)"
-```
-
-
    * Follow instructions, read messages, check for possible port conflicts and reboot
 
 <!-- TOC -->
