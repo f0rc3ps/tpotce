@@ -1,6 +1,6 @@
 # OPSEC-T-Pot - The All In One Multi Honeypot Platform
 
-***In development mode***
+***~In development mode~***
 
 [![T-Pot](doc/OPSEC-T-pot-24.04.png)](https://www.patreon.com/posts/opsec-t-pot-24-107056827)
 
