@@ -1,7 +1,8 @@
 FROM ubuntu:22.04
 #
 # VARS
-ENV KB_VER=8.13.4
+ENV KB_VER=7.17.22
+# ENV KB_VER=8.13.4
 # ENV KB_VER=8.14.1
 # ENV KB_VER=8.14.2
 # Include dist
