@@ -12,6 +12,6 @@ services:
      - NET_ADMIN
      - SYS_NICE
      - NET_RAW
-    image: "dtagdevsec/fatt:24.04"
+    image: "f0rc3ps/fatt:24.04"
     volumes:
      - $HOME/tpotce/data/fatt/log:/opt/fatt/log
