@@ -803,7 +803,7 @@ services:
     network_mode: "host"
     ports:
      - "64297:64297"
-    image: "nu11secur1ty/nginx:24.04"
+    image: ${TPOT_REPO}/nginx:${TPOT_VERSION}
     pull_policy: ${TPOT_PULL_POLICY}
     read_only: true
     volumes:
