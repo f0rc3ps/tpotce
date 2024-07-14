@@ -8,9 +8,9 @@ myHUBORG_DOCKER="nu11secur1ty"
 myHUBORG_GITHUB="ghcr.io/nu11secur1ty"
 myTAG="24.04"
 #myIMAGESBASE="tpotinit adbhoney ciscoasa citrixhoneypot conpot cowrie ddospot dicompot dionaea elasticpot endlessh ewsposter fatt glutton hellpot heralding honeypots honeytrap ipphoney log4pot mailoney medpot nginx p0f redishoneypot sentrypeer spiderfoot suricata wordpot"
-myIMAGESBASE="tpotinit adbhoney ciscoasa citrixhoneypot conpot cowrie ddospot dicompot dionaea elasticpot endlessh ewsposter fatt hellpot heralding honeypots honeytrap ipphoney log4pot mailoney medpot nginx p0f redishoneypot sentrypeer spiderfoot suricata wordpot"
+#### myIMAGESBASE="tpotinit adbhoney ciscoasa citrixhoneypot conpot cowrie ddospot dicompot dionaea elasticpot endlessh ewsposter fatt hellpot heralding honeypots honeytrap ipphoney log4pot mailoney medpot nginx p0f redishoneypot sentrypeer spiderfoot suricata wordpot"
 myIMAGESELK="elasticsearch kibana logstash map"
-myIMAGESTANNER="phpox redis snare tanner"
+#### myIMAGESTANNER="phpox redis snare tanner"
 myBUILDERLOG="builder.log"
 myBUILDERERR="builder.err"
 myBUILDCACHE="/buildcache"
@@ -103,9 +103,9 @@ if [ "$1" == "build" ];
     mkdir -p $myBUILDCACHE
     rm -f "$myBUILDERLOG" "$myBUILDERERR" 
     echo "### Building images ..."
-    fuBUILDIMAGES "" "$myIMAGESBASE" ""
-    fuBUILDIMAGES "elk/" "$myIMAGESELK" ""
-    fuBUILDIMAGES "tanner/" "$myIMAGESTANNER" ""
+    #fuBUILDIMAGES "" "$myIMAGESBASE" ""
+    fuBUILDIMAGES "" "$myIMAGESELK" ""
+    #fuBUILDIMAGES "tanner/" "$myIMAGESTANNER" ""
 fi
 
 # Build and push images
@@ -114,7 +114,7 @@ if [ "$1" == "push" ];
     mkdir -p $myBUILDCACHE
     rm -f "$myBUILDERLOG" "$myBUILDERERR" 
     echo "### Building and pushing images ..."
-    fuBUILDIMAGES "" "$myIMAGESBASE" "--push"
-    fuBUILDIMAGES "elk/" "$myIMAGESELK" "--push"
-    fuBUILDIMAGES "tanner/" "$myIMAGESTANNER" "--push"
+    #fuBUILDIMAGES "" "$myIMAGESBASE" "--push"
+    fuBUILDIMAGES "" "$myIMAGESELK" "--push"
+    #fuBUILDIMAGES "tanner/" "$myIMAGESTANNER" "--push"
 fi
