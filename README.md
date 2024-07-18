@@ -2,7 +2,7 @@
 
 ![OPSEC-T-Pot](doc/tpotsocial.png)
 
-![ipcollector](doc/ipcollector.png)
+![ipcollector](doc/ipcollector01.png)
 
 - ipcollector
  
