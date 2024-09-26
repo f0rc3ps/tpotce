@@ -3,7 +3,8 @@
 ## NOTE:
 
 Suppose you need support: For full support, automation, backup, and customization: 500$ every month, per server!
-Or it depends on the packet support! You can ask questions at: `seccyboxopsec@gmail.com`
+Or it depends on the packet support! You can ask questions at: `seccyboxopsec@gmail.com` 
+The other choice is free, you can downloaded, install it and try if for yourself without any support!
 Kind Regards
 
 
