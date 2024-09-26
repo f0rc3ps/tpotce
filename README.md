@@ -1,9 +1,11 @@
 # OPSEC-T-Pot - The All In One Multi Honeypot Platform
 
 ## NOTE:
-```
-Suppose you need support: For full support, automation, backup, and customization: 500$ every month, per server! Or it depends on the packet support! You can ask questions at: `seccyboxopsec@gmail.com` Kind Regards
-```
+
+Suppose you need support: For full support, automation, backup, and customization: 500$ every month, per server!
+Or it depends on the packet support! You can ask questions at: `seccyboxopsec@gmail.com`
+Kind Regards
+
 
 [![OPSEC-T-Pot](doc/tpotsocial.png)](https://www.patreon.com/posts/opsec-t-pot-24-112799719)
 
